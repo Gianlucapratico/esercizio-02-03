@@ -18,17 +18,19 @@
     flex-direction: column;
     margin-left: 44px;
     box-shadow: 12px 16px 10px rgb(0 0 0 / 20%);
+    user-select: none;
     transition-property: transform;
     transition-duration: 1s
 
 }
+
 .postit#task1:hover,#task2:hover,#task3:hover,#task4:hover,#task5:hover,#task6:hover,#task7:hover,#task8:hover{
     transform:translateY(-3px) scale(1.01);
 }
 #task1 {
     background-color: hsla(55, 57%, 85%, 0.945);
     transform: rotate(-6deg);
-    
+    box-shadow: 12px 16px 10px rgb(0 0 0 / 20%)
 }
 
 
